@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/karynatemchur/automation-project/src/test/java">
+        <classes>
+            <class name="com.example.ApiTest">
+                <methods>
+                    <include name="testGetRequest"/>
+                </methods>
+            </class>
+            <class name="com.example.UiTest">
+                <methods>
+                    <include name="testGoogleSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
